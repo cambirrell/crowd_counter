@@ -1,0 +1,9 @@
+To evaluate your results, prepare the results file in a csv format containing filename (with extension jpg) and count separated by commas.
+
+Run the following command:
+
+python jhucrowd_eval.py path_to_jhucrowd++_dataset path_to_prediction_file mode(test/val)
+
+example: python jhucrowd_eval.py ./jhu_crowd_v2.0 MCNN_val.csv val
+
+Note: evaluation code is test in python3.6 environment
